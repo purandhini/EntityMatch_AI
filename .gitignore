@@ -1,0 +1,32 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# Challenge datasets and labels
+data/raw/*
+data/processed/*
+**/train_ground_truth.tsv
+**/train_source*.tsv
+**/test_source*.tsv
+
+# Generated predictions and candidate pairs
+outputs/predictions/*
+outputs/reports/*
+candidate_pairs.tsv
+matching_results.tsv
+
+# Training artifacts
+models/training_features.csv
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+evaluate_recall_temp.py
