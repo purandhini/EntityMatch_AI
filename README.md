@@ -143,3 +143,8 @@ Unit tests verify all pipeline algorithms (normalization, blocking, feature extr
 ```bash
 python -m unittest tests/test_pipeline_units.py
 ```
+## Running Tests
+
+Run the automated tests from the project root:
+
+python -m pytest tests/
